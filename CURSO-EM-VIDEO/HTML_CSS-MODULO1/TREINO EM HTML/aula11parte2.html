@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTRANGEIRO</title>
+</head>
+
+<body>
+
+    <h1>VENDO A NACIONALIDADE</h1>
+    <input type="text" name="nac" id="txtnac">
+    <input type="Button" value="Visualizar" onclick="enviar()">
+    <div id='res'>Resultado</div>
+
+    <script>
+
+        function enviar(){
+
+            var nacionalidade = document.getElementById('txtnac')
+            var res = document.getElementById('res')
+            var txtnacionalidade = String(nacionalidade.value)
+            res.innerHTML = `<p> A pessoa nasceu no ${txtnacionalidade.toUpperCase()}</p>`  
+            
+            if(txtnacionalidade.toUpperCase() == 'BRASIL'){
+               res.innerHTML += `<p>Ele é Brasileiro</p>`
+            }
+            else{
+                res.innerHTML += `<p>Ele é Estrangeiro</p>`
+                
+            }
+
+
+        }
+
+
+
+    </script>
+
+</body>
+</html>

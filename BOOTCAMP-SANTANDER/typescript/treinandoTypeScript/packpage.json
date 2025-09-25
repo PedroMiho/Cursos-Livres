@@ -1,0 +1,12 @@
+{
+    "name": "dio-typescript",
+    "version": "dio-typescript",
+    "description": "",
+    "main": "index.js",
+
+
+    "scripts": {
+        "start":"parcel index.html",
+        "test": "echo \"erros: no test especifico\" && exit"
+    }
+}

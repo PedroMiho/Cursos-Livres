@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+
+    <style>
+        body{
+           font-family: Arial, Helvetica, sans-serif;
+       }
+
+       table{
+           width: 800px;
+           border-collapse: collapse;
+           position: relative;
+       }
+
+       td, th {
+           border: 0.9px solid black;
+           padding: 10px;
+           text-align: center;
+       }
+
+       thead > tr > th {
+           position: sticky;
+           top: -1px;
+           background-color: lightgray;
+       }
+
+       
+
+       caption{
+           border: 1px solid black;
+           background-color: gray;
+           padding: 10px;
+           font-weight: bolder;
+           font-size: 1.3em;
+       }
+
+       tr:nth-child(2n){
+        background-color: rgb(199, 184, 184);
+       }
+
+    div#container{
+        overflow-x: auto;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+    <img src="" alt="">
+
+    <h1>Tabelas em telas pequenas</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, alias doloremque. Ullam, voluptate ea! Officia tempore earum natus hic molestiae minima assumenda, maiores, expedita quis at eius facere mollitia quam.</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <tr>
+                <th>Produto</th>
+                <th>JAN</th>
+                <th>FEV</th>
+                <th>MAR</th>
+                <th>ABR</th>
+                <th>MAI</th>
+                <th>JUN</th>
+                <th>JUL</th>
+                <th>AGO</th>
+                <th>SET</th>
+                <th>OUT</th>
+                <th>NOV</th>
+                <th>DEZ</th>
+            </tr>
+            <tr>
+                <th>TV</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+            </tr>
+            <tr>
+                <th>Celular</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+            </tr>
+        
+            <tr>
+                <th>Radio</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>

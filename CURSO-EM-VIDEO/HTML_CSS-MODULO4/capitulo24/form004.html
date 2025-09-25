@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="capitulo24/cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="iEmail">E-mail:</label>
+                <input type="email" name="email" id="iEmail" required autocomplete="email">
+            </p>
+            
+            <p>
+                <label for="iTelefone">Telefone:</label>
+                <input type="tel" name="telefone" required pattern="^\(\d{2}\) \d{4,5}-\d{4}$">
+            </p>
+             <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

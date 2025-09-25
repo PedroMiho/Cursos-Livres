@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        main{
+            background-color: lightgrey;
+            width: 800px;
+            border: 1px solid black; 
+            margin: auto;
+            margin-bottom: 50px;
+            padding: 20px;
+
+        }
+        .container{
+            max-width: 500px;
+            border: 1px solid black;
+            display: flex;
+            margin: auto;
+
+        }
+
+        h1, h2{
+            text-align: center;
+        }
+
+        .item{
+            background-color: gray;
+            margin: 5px;
+            font-size: 1.5em;
+            text-align: center;
+            border: 1px solid black;
+            flex: 1;
+            min-width: 100px;
+            margin-bottom: 10px;
+        }
+
+        #center{
+            align-items: center;
+        }
+
+        #end{
+            align-items: flex-end
+        }
+
+        #start{
+            align-items: flex-start;
+        }
+
+        #base{
+            align-items: baseline;
+        }
+
+        #stretch{
+            align-items: stretch;
+        }
+
+        .coluna{
+            flex-direction: column;
+            min-height: 500px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <main>
+    
+        <h1>LINHA (ROW)</h1>
+    
+        <h2>CENTER</h2>
+    
+        <section class="container" id="center">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+        </section>
+    
+        <h2>START</h2>
+    
+        <section class="container" id="start">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+        </section>
+    
+        <h2>END</h2>
+    
+        <section class="container" id="end">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+        </section>
+    
+        <h2>STRETCH</h2>
+    
+        <section class="container" id="stretch">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+        </section>
+    
+        <h2>BASELINE</h2>
+    
+        <section class="container" id="base">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+        </section>   
+    
+    </main>
+
+
+    <h1>COLUNA (colums)</h1>
+
+    <h2>CENTER</h2>
+
+    <section class="container coluna" id="center">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+    </section>
+
+    <h2>START</h2>
+
+    <section class="container coluna" id="start">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+    </section>
+
+    <h2>END</h2>
+
+    <section class="container coluna" id="end">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+    </section>
+
+    <h2>STRETCH</h2>
+
+    <section class="container coluna" id="stretch">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+    </section>
+
+    <h2>BASELINE</h2>
+
+    <section class="container coluna" id="base">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quisquam voluptas veritatis eveniet laborum tempore itaque corrupti neque mollitia impedit ratione! Esse dolorum consequatur ea nam, unde maiores optio recusandae?</div>
+    </section>
+    
+</body>
+</html>

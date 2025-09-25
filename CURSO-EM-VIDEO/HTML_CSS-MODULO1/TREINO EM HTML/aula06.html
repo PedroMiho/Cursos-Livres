@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 06</title>
+
+    <Style>
+        body{
+            background-color: blue;
+            color: antiquewhite;
+            font: normal 20pt Arial; 
+        }
+        h1{
+            color: rgb(253, 0, 0);
+        }
+
+    </Style>
+</head>
+
+<body>
+    <h1>Ola, Mundo</h1>
+    <p>Ja me livrei da maldição</p>
+
+    <script>
+        
+        /*var nome = window.prompt('Qual é seu nome') FAZ UMA PERGUNTA EM UM POP-UP
+        window.alert(nome);*/
+
+        var n1 = Number.parseInt(window.prompt('DIGITE UM NUMERO'))
+        var n2 = Number.parseInt(window.prompt('DIGITE OUTRO NUMERO'))
+        var soma = n1 + n2
+
+        window.alert(`A soma entre os valores de n1= ${n1} e n2= ${n2} será igual a ${soma}`  )
+        document.write(String(n1)) //Transforma number em uma String
+
+   </script>
+
+</body>
+</html>

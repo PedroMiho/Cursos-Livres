@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 09</title>
+
+    <Style>
+        body{
+            background-color: blue;
+            color: antiquewhite;
+            font: normal 20pt Arial; 
+        }
+        
+    </Style>
+</head>
+
+<body>
+
+    <h1>INICIANDO ESTUDOS COM O DOM</h1>
+
+    <p>Agora vai o resultado</p>
+
+    <p Id = 'ID'>Aprendendo a usar o DOM <strong>
+
+    </strong>em javascript</p>
+
+    <div Name = 'msg'>clique em mim</div> 
+   
+   <script>
+
+    var p1 = document.getElementsByTagName('p')[0] //Selecionando um paragrafo em HTML por marca
+    p1.style.color = 'black'
+
+    var Id = document.getElementById('ID')//Selecionando um paragrafo por ID
+    Id.style.color = 'black'
+
+    var nome = document.getElementsByName('msg')[0]
+    nome.style.color = 'black'
+
+    var seletor = document.querySelector ('Id#ID')
+    seletor.style.color = 'black'
+
+
+
+
+
+   </script>
+
+</body>
+</html>

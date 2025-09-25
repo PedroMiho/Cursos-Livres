@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "fontedoCabecalho";
+    src: url("../pacote-projeto-d010/fontes/idroid.otf") format("opentype");
+}
+
+body {
+    margin: -21px 0px;
+    background-color: #84E1AD;
+}
+
+/*Inicio do Cabecalho*/
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    height: 200px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-image: linear-gradient(to top, #1A5C38, #1F6E42, #288E55, #32B36B, #3BD681);
+    color: white;
+}
+
+header>h1 {
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+
+nav {
+    text-align: left;
+    padding-top: 35px;
+}
+
+nav>a {
+    padding: 15px;
+    margin-top: 150px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav>a:hover {
+    background-color: #32B36B;
+    text-decoration: underline;
+}
+
+/*Inicio do conteudo*/
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+main>article {
+    padding: 15px;
+}
+
+article>h2 {
+    color: #1C5E39;
+    font-family: "fontedoCabecalho";
+}
+
+article>p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.P1 {
+    color: #1C5E39;
+    font-weight: bolder;
+    background-color: #C5EBD5;
+}
+
+article>h3 {
+    color: #1C5E39;
+    font-family: "fontedoCabecalho";
+    background-image: linear-gradient(to right, #C5EBD5, #D1EFDF, #EAF7F0);
+}
+
+p>img {
+    display: block;
+    margin: auto;
+    width: 600px;
+}
+
+#android {
+    display: block;
+    width: 300px;
+    margin: auto;
+    height: 200px;
+}
+
+#video {
+    display: block;
+    background-color: #1A5C38;
+    padding: 25px;
+    margin: 0px -15px;
+    text-align: center;
+    height: 315px;
+}
+
+#extra {
+    display: block;
+    padding: 5px 20px;
+    background-color: #C5EBD6;
+    margin: 0px 20px;
+    border-radius: 20px;
+}
+
+div>h4 {
+    display: block;
+    background-color: #2FA866;
+    padding: 10px 20px 10px;
+    margin: -4px -19px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+
+div > p {
+    text-indent: 20px;
+    text-align: justify;
+
+}
+
+.lista{
+    padding-right: 200px;
+}
+
+#fim {
+    padding: 10px 25px;
+}
+
+/*Inicio do rodapé*/
+
+footer {
+    background-color: green;
+    padding: 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.842);
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabela</title>
+
+    <style>
+         body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 800px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 0.9px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
+
+        
+
+        caption{
+            border: 1px solid black;
+            background-color: gray;
+            padding: 10px;
+            font-weight: bolder;
+            font-size: 1.3em;
+        }
+
+        col.nome{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Aprendendo Colgruop</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="nome">
+            <col class="idade">
+            <col class="sexo">
+            <col class="profissao">
+        </colgroup>
+
+        <caption>
+            Cadastro
+        </caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>ANA MARIA</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>ANA MARIA</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>ANA MARIA</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>ANA MARIA</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>ANA MARIA</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>ANA MARIA</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>ANA MARIA</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+
+
+    </table>
+
+
+</body>
+</html>
